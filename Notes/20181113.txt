@@ -1,0 +1,5 @@
+# Mount Pinpoint
+$PWord = ConvertTo-SecureString -String "######" -AsPlainText -Force
+$Credential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $User, $PWord
+
+New-PSDrive -Name X -PsProvider FileSystem -Root \\10.218.58.22\pinpointsmb2 -Persist -Credential $Credential

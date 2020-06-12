@@ -1,0 +1,8 @@
+
+#
+Set-AzureRMContext -SubscriptionId $subscriptionId;
+
+#
+$subscriptionDev = "d4e5fecf-32d0-4314-a56e-ca2389ac7ac3" # VanDamme;
+$subscriptionTest = "cf4579ce-9196-4d1f-8aeb-2d7a41f3b2c6" # Aquarium;
+$subscriptionProd = "cef83e6a-91b9-476b-b288-32c762bfc6c0" # Fishing for Data;

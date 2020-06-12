@@ -1,0 +1,9 @@
+# pinpoint linux home
+st-tawapp08.st.statoil.no
+
+# pinpoint directory
+/project/3DPosModel_SVG/production/datasets
+
+# integration runtime
+OmniaEngineeringIRNP # go to this one
+dataplatformIRdev # find out where this one is used and STOP!

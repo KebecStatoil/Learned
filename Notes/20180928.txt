@@ -1,0 +1,18 @@
+Connect to an SMB share
+
+Open a command window. At the command prompt, type:
+net use \\<IP address of the device>\<share name> /u:<user name for the share>
+
+Enter the password for the share when prompted.
+
+Press Windows + R. In the Run window, specify the \\<device IP address>. Click OK. This opens File Explorer. You should now be able to see the shares that you created as folders. Select and double-click a share (folder) to view the content.
+
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+PS C:\WINDOWS\system32> .\net.exe use \\10.218.58.22\pinpointsmb /u:
+Enter the password for 'PinpointUser' to connect to '10.218.58.22':
+The command completed successfully.
+
+PS C:\WINDOWS\system32>

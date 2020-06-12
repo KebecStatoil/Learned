@@ -1,0 +1,5 @@
+# PowerShell completion with menu
+CTRL+SPACE !!!!
+
+# drag in VS [Code|Studio] to make vertical cursors
+Alt+shift drag

@@ -1,0 +1,17 @@
+# PowerShell: Sub-Expression Expansion
+Write-Host "$($assoc.Id) - $($assoc.Name) - $($assoc.Owner)"
+
+# PowerShell: Split
+"Video  Video  Audio  Audio  VBI    VBI" -split '\s+'
+or
+"Video  Video  Audio  Audio  VBI    VBI".split()| where {$_}
+
+# Powershell Map, Reduce And Filter
+http://peterreavy.com/tech/2014/04/30/Map,-reduce-and-filter-in-PowerShell.html
+
+# Powershell Function Object
+PS> $double = { $_ * 2 }     # a scriptblock is like a lambda
+PS> $equals3 =  { $_ -eq 3 }
+
+# Powershell: File into array of strings
+$a = [string[]](Get-Content .\test.txt)

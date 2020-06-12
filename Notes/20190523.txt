@@ -1,0 +1,9 @@
+# merge into current branch
+git merge YourBranchHere --no-ff -m"Your message here"
+
+
+# delete local branch
+git branch -d YourBranchHere
+
+# delete remote branch
+git push origin --delete YourBranchHere

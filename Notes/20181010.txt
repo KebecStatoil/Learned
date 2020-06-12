@@ -1,0 +1,11 @@
+
+
+Robocopy Z:\ X:\JohanSverdrup /MIR
+
+Robocopy Z:\sessions\D42_concept X:\JohanSverdrup\sessions\D42_concept /MIR
+
+AdlCopy /source https://mystorage.blob.core.windows.net/mycluster/HdiSamples/HdiSamples/WebsiteLogSampleData/SampleLog/909f2b.log /dest swebhdfs://mydatalakestorage.azuredatalakestore.net/mynewfolder/ /sourcekey 
+
+AdlCopy /Source https://dataplatformblstagetest.blob.core.windows.net/pinpointsmb/JohanSverdrup/ /dest adl://dataplatformdlsdev.azuredatalakestore.net/raw/corporate/PINPOINT/JohanSverdrup/ /sourcekey ########################################################################################
+
+AdlCopy /Source https://dataplatformblstagetest.blob.core.windows.net/pinpointsmb/JohanSverdrup/sessions/D42_concept/ /dest adl://dataplatformdlsdev.azuredatalakestore.net/raw/corporate/PINPOINT/JohanSverdrup/sessions/D42_concept/ /sourcekey ########################################################################################

@@ -1,0 +1,6 @@
+# Export a certificate
+* mmc.exe
+* ctrl + m
+* Add Certifificates for "My user account" - OK
+* ...
+* right-click the certificate to export

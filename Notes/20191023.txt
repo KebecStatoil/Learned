@@ -1,0 +1,14 @@
+# Giving Applications (Service Principles) Role Access to an Appication
+
+# Azure Active Directory Details (App Registrations & Enterprise Applications)
+
+$ObjectId = "8929bb77-0b31-4366-a608-6f821939479e" # Equinor.TI.ADS - prod - Overview (Enterprise Application) "Object ID"
+$Id = "b0ac8ecf-a486-4633-9be2-648e902d1d8c" # Equinor.TI.ADS - prod | Manifest::appRoles["ADSUser"].id
+$PrincipalId = "87324cef-6df0-4e13-92d4-6e2764d27fc3" # PimsProjectControl - Overview (Enterprise Application) "Object ID"
+$ResourceId = "8929bb77-0b31-4366-a608-6f821939479e" # Equinor.TI.ADS - prod - Overview (Enterprise Application) "Object ID"
+
+Connect-AzureAD
+
+New-AzureADServiceAppRoleAssignment -ObjectId $ObjectId -Id $Id -PrincipalId $PrincipalId -ResourceId $ResourceId
+
+ref: https://joonasw.net/view/calling-your-apis-with-aad-msi-using-app-permissions

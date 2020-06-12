@@ -1,0 +1,3 @@
+# revert local repo
+git fetch origin
+git reset --hard origin/YOUR_BRANCH_HERE

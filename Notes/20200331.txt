@@ -1,0 +1,6 @@
+# Application data location
+%appdata%
+
+# pip.ini setting to use equinor proxy
+[global]
+proxy = www-proxy.statoil.no:80

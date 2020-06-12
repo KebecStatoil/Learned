@@ -1,0 +1,4 @@
+# Packaging Python Projects whl
+python -m pip install --user --upgrade setuptools wheel
+python setup.py sdist bdist_wheel
+ref: https://packaging.python.org/tutorials/packaging-projects/

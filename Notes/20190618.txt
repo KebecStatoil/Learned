@@ -1,0 +1,5 @@
+# norwegian keyboard
+ctrl + alt === alt gr
+
+# bash: run a command in the background with &
+gitk &

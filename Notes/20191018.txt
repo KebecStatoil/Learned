@@ -1,0 +1,4 @@
+# Powershell KeyVault
+# Get-AzKeyVaultSecret -VaultName ODET2KVDev | ForEach-Object { $_.Name }
+# (Get-AzKeyVaultSecret -VaultName ODET2KVDev -Name "ora-safranproject-p300-dev").SecretValueText
+

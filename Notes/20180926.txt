@@ -1,0 +1,13 @@
+
+# Try connecting to a network computer
+Test-NetConnection 10.25.64.130 -port 22
+
+# Vim
+:g -- quit
+:help
+i to inset
+:w to save ("write")
+
+#linux cmd show permissions
+ls -l <filename>
+

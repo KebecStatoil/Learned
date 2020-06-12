@@ -1,0 +1,7 @@
+cd /c/users/kebec/Documents/github/DataPlatform
+cd c:\users\kebec\Documents\github\DataPlatform
+
+
+/raw/corporate/Aspen%20MS%20-%20IP21%20Grane/sensordata/1755-GRA
+
+/raw/corporate/Aspen%20MS%20-%20IP21%20Grane/sensordata/1755-GRA/GRA-DIM%20-13-0979.PV

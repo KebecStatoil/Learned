@@ -1,0 +1,5 @@
+# Duplicate Chrome Tab
+Alt+D, Alt+Return
+
+# Databricks Delete Cell
+Esc, Shift+DD

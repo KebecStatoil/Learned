@@ -1,0 +1,2 @@
+# [python] use proxy with pip
+& "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python36_64/python.exe" -m pip install -U pylint --user --proxy http://www-authproxy.statoil.net:80

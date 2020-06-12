@@ -1,0 +1,6 @@
+# Ignore files that have already been committed to a Git repository
+# To untrack every file that is now in your .gitignore:
+# !!! First commit any outstanding code changes, and then...
+git rm -r --cached .
+git add .
+git commit -m ".gitignore is now working"

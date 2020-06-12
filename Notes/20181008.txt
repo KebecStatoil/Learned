@@ -1,0 +1,8 @@
+mount [-o <Option>[...]] [-u:<UserName>] [-p:{<Password> | *}] 
+mount \\st-tawapp08.st.statoil.no\project\3DPosModel_SVG\production\datasets\JohanSverdrup\Sessions -u:kebec -p:###### Z:
+
+Test-NetConnection st-tawapp08.st.statoil.no -Port 2049
+
+du -sh file_path
+
+\project\3DPosModel_SVG\production

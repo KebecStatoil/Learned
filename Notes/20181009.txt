@@ -1,0 +1,9 @@
+/project/3DPosModel_SVG/production/datasets/JohanSverdrup/sessions
+
+pscp kebec@st-tawapp08.st.statoil.no:/private/kebec/folderFilesSizes.txt C:\Users\kebec\Desktop\folderFilesSizes.txt
+
+WIKIHOW:To_get_started_with_Mapping_Project_Area_on_Windows_(RMS) (Step4)
+
+\\statoil.net\UNIX_ST\project\3DPosModel_SVG\production\datasets\JohanSverdrup
+
+du -sh /project/3DPosModel_SVG/production/datasets/JohanSverdrup

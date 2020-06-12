@@ -1,0 +1,17 @@
+You can download deployment templates after making a linux vm.
+
+kfjb@kfjb-ubuntu-vm:/etc$ cat hosts
+127.0.0.1 localhost
++127.0.1.1 kfjb-ubuntu-vm+
+
+sudo apt-get -y update
+sudo apt install nfs-kernel-server
+
+/etc/exports
++/home/kfjb *(rw,sync,no_root_squash)+
+
+
+mount -o anon 10.25.64.131:/home/kfjb z:
+\\10.25.64.131\home\kfjb
+
+showmount

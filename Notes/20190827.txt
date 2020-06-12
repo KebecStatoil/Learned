@@ -1,0 +1,3 @@
+# Trouble Shooting Scheduled Tasks
+* Open Computer Management: Event Viewer > Windows Logs > Application
+* Open Server Manager: ...

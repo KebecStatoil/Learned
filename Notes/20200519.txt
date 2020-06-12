@@ -1,0 +1,4 @@
+# Creating an App Registration
+# Elevating Privileges in Azure from the Portal
+Clicking: Azure Active Directory > Identity Governance > Privileged Identity Management > Azure AD roles > My Roles
+Click Activate... (Need to have the the Eligible Role: Application Developer)

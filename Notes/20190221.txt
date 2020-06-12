@@ -1,0 +1,4 @@
+#open powershell--obviously
+shift-right-click in explorer -> "open powershell window here"
+Alt-F-R
+Alt-F-S-A

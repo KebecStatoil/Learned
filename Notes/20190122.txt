@@ -1,0 +1,5 @@
+
+# Remove Dataset
+Connect-AzureRmAccount -ErrorAction Stop;
+Set-AzureRMContext -SubscriptionId "VanDamme";
+Remove-AzureRmDataFactoryV2Dataset -ResourceGroupName "DataLakersRGDev" -DataFactoryName "DataLakersDFDev" -Name "YOUR_DATASET_HERE" -Verbose;

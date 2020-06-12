@@ -1,0 +1,2 @@
+# Google a url
+* Start with a question mark '?' when typing in the "address" bar

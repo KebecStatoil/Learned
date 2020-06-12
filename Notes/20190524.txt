@@ -1,0 +1,6 @@
+# Multi-Factor Authentication User Log In
+https://mfa.equinor.com/
+
+
+# Brackets on Scandinavian Keyboard
+Ctrl + Alt === Alt Gr

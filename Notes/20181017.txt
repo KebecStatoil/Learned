@@ -1,0 +1,12 @@
+
+#
+Connect-AzureRmAccount
+
+#
+... | Select-Object -Property Name,FreeSpace
+
+#
+Get-AzureRmDataLakeStoreChildItem -AccountName "ContosoADL" -Path "/MyFiles/"
+
+#
+... | Out-File -filepath C:\Test1\process.txt

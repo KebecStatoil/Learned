@@ -1,0 +1,1 @@
+robocopy Z: X:\JohanSverdrup\ /MIR /MT:8 /copy:DT /log:C:\Users\kebec\Desktop\RobocopyLog.txt

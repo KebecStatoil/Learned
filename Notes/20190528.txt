@@ -1,0 +1,9 @@
+# C# null coalescing operator
+var whatIWant = someString ?? "Cookies!"; // C#
+var whatIWant = someString || "Cookies!"; // JavaScript
+
+# git commit history for a user
+git log --author="bjor2"
+
+# git checkout an historical commit
+git checkout 3b67b0e5bb52a1be2d44b43dd056b8bf64c4948bDD
